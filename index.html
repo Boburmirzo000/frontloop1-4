@@ -5,11 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Loop 1 - Step 4</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  
+  <div class="chat_card">
+    <div class="chat_cart-heading">
+      <h2 class="chat_user-name">mark zuckerberg</h2>
+      <div class="close_button"><img src="img/close.svg" alt="close-img"></div>
+    </div>
+    <div class="chat_card-date">today</div>
+    <div class="chat_card-body">
+
+      <div class="chat_card_user-text chat_card_user-text-sender">
+        <span class="chat_card-time">10:53</span>
+        <p class="chat_card-text">Hi,Mark! I made a new desing for Messemger App</p>
+      </div>
+      <div class="chat_card_user-text chat_card_user-text-reciever">
+        <span class="chat_card-time">10:57</span>
+        <p class="chat_card-text">Yo! Send it to my assistant and we'll rewiev it during the year.</p>
+      </div>
+      <div class="chat_card_user-text chat_card_user-text-sender">
+        <span class="chat_card-time">11:03</span>
+        <p class="chat_card-text">But Mark...</p>
+      </div>
+      <div class="chat_card_user-text-bot">
+        <p class="chat_card-text">You were blocked by the user</p>
+      </div>
+    </div>
+    <form action="#" accept="POST">
+      <input type="text" name="text_input" placeholder="Enter your message">
+      <button type="submit">send</button>
+    </form>
+  </div>
 </body>
 </html>
